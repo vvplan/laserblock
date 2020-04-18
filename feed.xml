@@ -1,1 +1,431 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/laserblock/feed.xml" rel="self" type="application/atom+xml" /><link href="/laserblock/" rel="alternate" type="text/html" /><updated>2020-04-17T22:45:12-05:00</updated><id>/laserblock/feed.xml</id><title type="html">虚谷计划之乐造模块</title><subtitle>利用激光切割技术加工的木质结构件，支持常见的电子模块，为创客教育与STEAM提供了低成本的结构件方案。</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/laserblock/feed.xml" rel="self" type="application/atom+xml" /><link href="/laserblock/" rel="alternate" type="text/html" /><updated>2020-04-17T22:45:27-05:00</updated><id>/laserblock/feed.xml</id><title type="html">虚谷计划之乐造模块</title><subtitle>利用激光切割技术加工的木质结构件，支持常见的电子模块，为创客教育与STEAM提供了低成本的结构件方案。</subtitle><entry><title type="html">Laserblock，为何能让机器人教育走向开源、普惠</title><link href="/laserblock/2020/04/15/Laserblock-%E4%B8%BA%E4%BD%95%E8%83%BD%E8%AE%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%95%99%E8%82%B2%E8%B5%B0%E5%90%91%E5%BC%80%E6%BA%90-%E6%99%AE%E6%83%A0.html" rel="alternate" type="text/html" title="Laserblock，为何能让机器人教育走向开源、普惠" /><published>2020-04-15T00:00:00-05:00</published><updated>2020-04-15T00:00:00-05:00</updated><id>/laserblock/2020/04/15/Laserblock,%E4%B8%BA%E4%BD%95%E8%83%BD%E8%AE%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%95%99%E8%82%B2%E8%B5%B0%E5%90%91%E5%BC%80%E6%BA%90%E3%80%81%E6%99%AE%E6%83%A0</id><content type="html" xml:base="/laserblock/2020/04/15/Laserblock-%E4%B8%BA%E4%BD%95%E8%83%BD%E8%AE%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%95%99%E8%82%B2%E8%B5%B0%E5%90%91%E5%BC%80%E6%BA%90-%E6%99%AE%E6%83%A0.html">&lt;p&gt;Laserblock开源机器人系列&lt;/p&gt;
+
+&lt;p&gt;Laserblock诞生以来，受到客教育圈实践工作者和学生的广泛喜爱。什么是Laserblock？Laserblock可以做什么？为什么说Laserblock的出现，让我们告别了机器人教育物质匮乏的时代？Laserblock原是一款开源激光切割积木结构件的名字，最早出现是在2018年1月，后演化至名为“乐造模块“的开源激光切割积木结构件系列的代称。从本期开始，我们将通过Laserblock系列文章以专栏连载的方式介绍laserblock的前世今生，和如何利用laserblock进行开源机器人的项目搭建。&lt;/p&gt;
+
+&lt;p&gt;……&lt;/p&gt;
+
+&lt;p&gt;1 Laserblock，为何能让机器人教育走向开源、普惠&lt;/p&gt;
+
+&lt;p&gt;龙丽嫦 高伟光 梁志成&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一、什么是Laserblock&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Laserblock，中文含义是激光切割块，意指由激光切割而成的积木结构件，它是由设计者用建模软件绘制好结构图，然后用激光切割机切割而成的木制结构件，制件的大小、图形、颗块数量由设计者建模时确定。Laserblock是中国电子学会现代教育技术分会创客教育专家组发起的一个自主设计和运营的品牌项目。作为开源硬件，Laserblock自诞生起，由最初的Laserblock@DF，发展到Laserblock@红棉、数字鲁班@家创等几个样式。其共同特征有四个：一是由创客圈或创客教育实践工作者设计且服务于创客教育；二是使用激光切割技术制作；三是积木件制作材料是木板；四是设计图纸开源。基于以上特征，Laserblock可以用作泛指为创客教育激光切割件的开源项目，在2019年8月由项目联合发起人统称为“乐造模块”项目。为方便从Laserblock的起源谈起，文章沿用“乐造模块”最早的名字Laserblock。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;二、Laserblock的初心和梦想&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Laserblock诞生于2018年1月13日，第一款Laserblock的设计者是中国电子学会现代教育技术分会创客教育专家组（下称创客教育专家组）成员吴俊杰老师发起，耿林杰老师设计，由雷宇激光团队承制。最初，用激光切割木制件作为搭建机器人的结构件，是吴俊杰老师的idea。其美好的初心是为了解决机器人搭建构件价格昂贵且开放性、多样性不足，从而制约让机器人教育在中小学校大班教学中广泛开展的问题。怎样才能降低构件价格门槛，让它变得随手可得、开放多样且技术开源，从而使机器人采购问题不再成为阻档机器人教育普惠广大师生的拦路石呢？于是结构开放、样式多元、制件可重用、技术开源等这几个典型需求特征，摆在了设计者的面前。&lt;/p&gt;
+
+&lt;p&gt;在创客教育时代，我们鼓励和传播DIY制造文化，倡导制造的多样化、个性化和开源分享。激光切割机可以按照开源机器人设计者的开源图纸制造出搭建机器人所需的结构件。即使你不是机器人设计师，只要学校或区域创客空间有一台激光切割机，你就可以借助激光切割技术源源不断获得足够多的结构件，尽情地搭建，反复探究、尝试，可以反复拆装，重复使用。如果已有图纸不能满足需求，可以根据实际需要自行修改图纸，或者反馈意见给设计师，迭代修改后再产再造。这样，就能彻底告别“机器人物质匮乏的年代”（吴俊杰，2018），步入了开源机器人发展的时节，实现让机器人教育成为中小学能广泛开展的普惠性教育活动的梦想。&lt;/p&gt;
+
+&lt;p&gt;最早面向中小学教师开展Laserblock项目专项实训的是广州市电化教育馆应用推广部和红棉创客教育团队，笔者作为创客教育专家组成员也是红棉创客教育团队的牵头人，通过组织“广州市中小学创客种子教师实训”将Laserblock这种结构件带到教师学员面前，配合开源分立电子元器件，搭建制作出形态各异、创意十足的机器人作品，引起各地关注。随后，此起彼伏的Laserblock在全国各地开展，展现了从梦想到实现的过程。经过2年的推广和实践探索，无论是有激光切割机设备单位（包括创客教育培训机构、中小学校）以自行切割生产与使用的方式开展，还是无激光切割机设备以网上商城用非常低廉的价格采购Laserblock的方式开展，无论是结合开源电子硬件玩搭建，还是不结合开源硬件玩搭建，都能够利用Laserblock玩出异彩纷呈的效果。实践证明，Laserblock项目，易于学习易于操作，受到广大师生的喜爱，也有越来越多的创客教师参与到机器人结构件的设计项目当中，使Laserblock项目得到良性的迭代发展。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;三、Laserblock的样式演化&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;目前Laserblock共有三个通用型样式和若干个专用型样式。通用型Laserblock包括有Laserblock@DF、Laserblock@红棉两款样式，后来发展出Laserblock@掌控这一款。而专用型Laserblock包括有避障小车、小卫星、诸葛连弩版、创立方等多个样式。由于Laserblock基于CC BY开源协议而设计，社区中还衍生出大量由创客教师自行设计的其他样式。而区分通用型还是专用型的依据，是尺寸和功能。&lt;/p&gt;
+
+&lt;p&gt;（一）Laserblock通用型样式&lt;/p&gt;
+
+&lt;p&gt;通用型样式的设计，主要基于四个方面的考虑，第一是针对常用电子元器件的外形、尺寸做安装件设计，第二是面向机械结构搭建常用的例如连杆、齿轮、凸轮等的结构件的设计，第三是面向应用场景的结构框架的考虑；第四是基于资源节约的考虑，即既定的幅面面积下布局设计出尽可能多地的积木件。通用型样式的Laserblock，其搭建模型成品开放多元，不特定指向某一结构造型。通用型样式基本技术参数如表1所示。&lt;/p&gt;
+
+&lt;p&gt;表1 laserblock通用型样式的基本技术参数和组件&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&quot;header&quot;&gt;
+&lt;th&gt;名称&lt;/th&gt;
+&lt;th&gt;&lt;p&gt;孔径&lt;/p&gt;
+&lt;p&gt;（mm）&lt;/p&gt;&lt;/th&gt;
+&lt;th&gt;&lt;p&gt;孔距&lt;/p&gt;
+&lt;p&gt;（mm）&lt;/p&gt;&lt;/th&gt;
+&lt;th&gt;&lt;p&gt;幅面&lt;/p&gt;
+&lt;p&gt;（mm）&lt;/p&gt;&lt;/th&gt;
+&lt;th&gt;板数&lt;/th&gt;
+&lt;th&gt;组件&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&quot;odd&quot;&gt;
+&lt;td&gt;Laserblock@DF&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;195x270&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;多孔连杆、滑槽连杆、连接片、单孔方片、轴片、板框以及配合专用器件安装件、&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;even&quot;&gt;
+&lt;td&gt;&lt;p&gt;Laserblock@红棉&lt;/p&gt;
+&lt;p&gt;（标准样式）&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;195x270&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;多孔连杆、滑槽连杆、连接片、单孔方片、轴片、齿轮、拐条、凸轮、板框以及配合开源元器件标准的安装件等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;odd&quot;&gt;
+&lt;td&gt;Laserblock@掌控板&lt;/td&gt;
+&lt;td&gt;3/4&lt;/td&gt;
+&lt;td&gt;15/16&lt;/td&gt;
+&lt;td&gt;195x270&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;多孔连杆、滑槽连杆、连接片、单孔方片、轴片、齿轮、拐条、凸轮、板框以及配合开源器件标准的安装件、专用器件安装件等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Laserblock@DF V1.0&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Laserblock@DF是第1款Laserblock项目的样式，到目标为止，它只制作了1个版本，对Laserblock项目的发展起到了投石问路的作用。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;开源设计者：吴俊杰、耿林杰，承制：雷宇激光。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;源起与地位：Laserblock的最早样式、第1款。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;设计式样：如表1、图1所示，单板设计，全框尺寸为195x270（mm）,组件包括多孔连杆、滑槽连杆、齿轮、单孔圆片和一些连接片，还有针对DF公司的电子件产品例如舵机等的尺寸设计的用于固定的安装件，全板按比例绘制分布孔洞,孔洞直径为3mm，用于搭建连接时的螺丝位，孔距为15mm。 在板子的右下角利用激光切割建模的描线工艺进行开源设计者的署名。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;功能实现：能够实现简单的机器人制作。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;推广情况：2018年4月，由会创客专家组在东莞雷宇科教公司面向创客机构发起第一场工作坊。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;图1 Laserblock@DF设计图纸&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Laserblock@红棉 V1.5&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- end list --&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;开源设计者：龙丽嫦、高伟光、吴俊杰、耿林杰，承制：雷宇激光。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;源起与地位：Laserblock的标准样式、流通款。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;设计式样：如表1、图2所示，整套设计为三块板（I、II、III）。I板保留Laserblock@DF的样式，包括有多孔连杆、滑槽连杆、齿轮、单孔圆片和一些连接片等组件，但安装件部分的尺寸按广州市电化教育馆“红棉创客空间”采用的开源分立元器件方案进行绘制；II板包含有是小号与中号齿轮、凸轮等传动部件；III板的传动部件是连杆，还有针对开源分立器件标准尺寸的超声波、显示屏等电子器件的固定安装件。全板按比例绘制分布孔洞，孔洞直径为3mm，用于搭建连接时的螺丝位，孔距为15mm。在板子的右下角利用激光切割建模的描线工艺进行开源设计者的署名。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;功能实现：能够完成不带电、带电无编程、带电可编程等多样化的艺术装置、结构装置或机器人的搭建。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;推广情况：2018年5月，广州市电化教育馆面向广州市中小学（含中职）创客种子教师（80名学员）开展如何利用Laserblock@红棉并结合开源电子元器件进行“创意智造”作品的2天实训，这是国内首场大规模关于利用Laserblock开展STEAM创客项目搭建的创客师资实训。作为Laserblock@红棉的发起人、Laserblock@红棉培训项目的策划人和实施人龙丽嫦、高伟光老师将机械知识、开源硬件知识和应用场景的设计知识融合在项目搭建的培训课程中，极大地激发了学员的创造力，创造出丰富多元的机器人作品。如图3所示的“智能车库”，是小组学员合作创作的作品。培训受到学员们的普遍肯定，对Laserblock@红棉也十分喜爱，通讯稿和口碑传播，在国内引起广泛关注，各地随后掀起了开展Laserblock@红棉的培训热潮，并由创客专家组等联合发起Laserblock@红棉的百校行、免费申领等公益活动。2018年10月，Laserblock@红棉作为培训器材被引入到由教师广西师范学院教育学院组织的2018年“国培计划”乡村紧缺薄弱学科访名校初中综合实践活动课培训中。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;图2 Laserblock@红棉的设计图纸&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image4.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;图3小组学员利用Laserblock@红棉搭建的“智能车库”机器人作品&lt;/p&gt;
+
+  &lt;p&gt;&amp;lt;3.Laserblock@掌控板&amp;gt; V1.0&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;开源设计者：高伟光，承制：雷宇激光。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;源起与地位：基于Laserblock@红棉的板子，针对掌控板、盛思公司的电子器件尺寸做设计，流通款。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;设计式样：如表1和图4所示，三块板（I、II、III）。I板、II板保留了Laserblock@红棉的式样设计，并增加了适用于盛思公司的传感器的M4孔洞。III板做了掌控板安装片和连接方式的设计更新，连接片可以同时以榫卯、螺丝固定，全板设计了M3(孔径3mm)和M4（孔径4mm），可以同时安装开源分立元器件与盛思公司的传感器模块。同时，外框的边沿也修改了样式，加入了榫卯设计，以利于立体搭建时板框之间的连接。在板子的右下角利用激光切割建模的描线工艺进行开源设计者的署名。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;功能实现：能够完成不带电、带电无编程、带电可编程等多样化的艺术装置、结构装置、机器人的搭建。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;推广情况：没有开展推广活动。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;图4 Laserblock@掌控板的设计图纸&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;（二）Laserblock专用型样式&lt;/p&gt;
+
+&lt;p&gt;Laserblock专用型样式，全板尺寸自定义，孔径自定义，孔距自定义，结构件组成自定义，是为实现某类特定的功能或结构造型而设计的样式。例如，Laserblock@家庭创客空间孵化课程（后简称为“家创”）和LaserBot样式这两款。Laserblock专用型样式的基本技术参数和组件如表2所示。&lt;/p&gt;
+
+&lt;p&gt;表2 Laserblock两款专用型样式的基本技术参数和组件&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&quot;header&quot;&gt;
+&lt;th&gt;版本名称&lt;/th&gt;
+&lt;th&gt;&lt;p&gt;孔径&lt;/p&gt;
+&lt;p&gt;（mm）&lt;/p&gt;&lt;/th&gt;
+&lt;th&gt;&lt;p&gt;孔距&lt;/p&gt;
+&lt;p&gt;（mm）&lt;/p&gt;&lt;/th&gt;
+&lt;th&gt;&lt;p&gt;幅面&lt;/p&gt;
+&lt;p&gt;（mm）&lt;/p&gt;&lt;/th&gt;
+&lt;th&gt;板数&lt;/th&gt;
+&lt;th&gt;组件&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&quot;odd&quot;&gt;
+&lt;td&gt;Laserblock@家创&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;&lt;ol&gt;
+&lt;li&gt;&lt;blockquote&gt;
+&lt;p&gt;135x135&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;140x140&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;多孔连杆、滑槽连杆、连接片、齿轮、拐条、孔洞板&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;even&quot;&gt;
+&lt;td&gt;LaserBot&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;206x280&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;多孔连杆、传感器安装块&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;1. Laserblock@家庭V2.0&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;开源设计者：吴俊杰、赵俊杰，承制：雷宇激光。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;源起与地位：家庭创客空间孵化课程少儿搭建结构件，可简称为家创板。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;设计式样：如表2和图5所示，Demo版是206x282大小，为了携带与快递方便，在V2.0版本中更改为三板设计，颗块数量较少，组件包括包括多孔连杆、滑槽连杆、齿轮、单孔圆片和一些连接片,可以制作齿轮传动、滑槽结构、立面结构、四边形结构、曲柄结构等。全板按标准样式的规格绘制孔洞，孔径3mm，用于搭建连接时的螺丝位，孔距为15mm。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;功能实现：可以用于搭建简单的、局部的结构装置，例如木偶手部、烤肉架装置、电风扇转叶装置等。如图6为使用Laserblock@家创搭建的升降机。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;推广情况：通过网络分享作品搭建的视频课程，同时，面向全国发起一万套免费申领的活动，受到广泛关注。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;图5 Laserblock@@家创 设计图纸&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image7.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;图6 Laserblock@家创搭建的升降机&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2．LaserBot V1.3&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;开源设计者：吴俊杰、马锋，承制：雷宇激光。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;源起与地位：用于搭建避障小车模型。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;设计式样：如表2和图7所示，单板设计，全板按比例绘制分布孔洞，孔径3mm，用于搭建连接时的螺丝位，孔距为15mm。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;功能实现：主要用于搭建超声波避障小车，搭建成品如图8所示。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;图7 LaserBot版（避障小车版） 设计图纸&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image9.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;图8 利用LaserBot搭建的作品（图片来自于Laserblock开源社区）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Laserblock其他专用型样式还有Laserblock@泺喜、Laserblock@盛思、Laserblock@S4A、Laser bot、小卫星、诸葛连弩版、创立方等。&lt;/p&gt;
+
+&lt;p&gt;四、Laserblock项目遵循的开源协议&lt;/p&gt;
+
+&lt;p&gt;Laserblock项目遵循知识共享署名 4.0 国际许可协议进行许可（CC BY 4.0），任何人都可以对开源分享的设计图纸进行生产改进，但需在传播与修改后保留署名权。在Laserblock项目开源社区（网址：http://www.laserblock.cn/）上除了Laserblock通用型样式的图纸开源分享，还有其他创客教师自主设计的多款Laserblock专用型样式的设计图纸以及使用其切割件创意搭建而成的作品。&lt;/p&gt;
+
+&lt;p&gt;五、Laserblock积木组件的命名&lt;/p&gt;
+
+&lt;p&gt;Laserblock通用型样式Laserblock@红棉，是针对通用开源硬件传感器开发的积木件，其适应性高、积木数量丰富，是Laserblock项目推广以来流行性程度最高的一款激光切割开源结构件。&lt;/p&gt;
+
+&lt;p&gt;为利于Laserblock项目的应用推广，我们以Laserblock@红棉为例，按先机械连接组件后电子安装件、尺寸从小到大的顺序，对组件进行编排和命名进行定义，如表3、表4、图9所示。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;表3 Laserblock@红棉的机械连接组件&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;编号&lt;/th&gt;
+      &lt;th&gt;结构件名称&lt;/th&gt;
+      &lt;th&gt;规格&lt;/th&gt;
+      &lt;th&gt;数量&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;①&lt;/td&gt;
+      &lt;td&gt;单孔方片&lt;/td&gt;
+      &lt;td&gt;1孔&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;②&lt;/td&gt;
+      &lt;td&gt;单孔圆片&lt;/td&gt;
+      &lt;td&gt;1孔&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;③④⑤⑥⑦⑧⑨⑩&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image10.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;连杆&lt;/td&gt;
+      &lt;td&gt;③2孔，④2孔，⑤3孔， ⑥ 4孔，⑦ 5孔，⑧6孔，⑨13孔，⑩2x2孔，!2x5孔,@6x6孔&lt;/td&gt;
+      &lt;td&gt;1,1,1,2,2,1,4,1,1,1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image11.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;连接片&lt;/td&gt;
+      &lt;td&gt;2x3孔，2x6孔&lt;/td&gt;
+      &lt;td&gt;5,2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image12.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;直角拐条&lt;/td&gt;
+      &lt;td&gt;2x2孔，2x3孔&lt;/td&gt;
+      &lt;td&gt;2,1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image13.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;120度拐条&lt;/td&gt;
+      &lt;td&gt;4孔&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image14.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;单扁轴孔轴片&lt;/td&gt;
+      &lt;td&gt;3孔,5孔，适用于N20电机&lt;/td&gt;
+      &lt;td&gt;1,1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image15.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;单扁轴孔轴盘&lt;/td&gt;
+      &lt;td&gt;2孔，适用于N20电机&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image16.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;小齿轮&lt;/td&gt;
+      &lt;td&gt;_单扁轴孔，适用于N20电机，+普通小齿轮，1双扁轴孔，适用于TT电机&lt;/td&gt;
+      &lt;td&gt;1,4,2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image17.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;凸轮&lt;/td&gt;
+      &lt;td&gt;双扁轴孔，适用于TT电机&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image18.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;中齿轮&lt;/td&gt;
+      &lt;td&gt;普通中齿轮，双扁轴孔，适用于TT电机&lt;/td&gt;
+      &lt;td&gt;1,1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image19.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;大齿轮&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;表4 Laserblock@红棉的电子安装件&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;编号&lt;/th&gt;
+      &lt;th&gt;结构件名称&lt;/th&gt;
+      &lt;th&gt;用途&lt;/th&gt;
+      &lt;th&gt;数量&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image20.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;扳手&lt;/td&gt;
+      &lt;td&gt;M3螺母&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image21.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;扳手&lt;/td&gt;
+      &lt;td&gt;M3螺母扳手；单扁轴孔，N20电机轴片&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image22.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;螺丝刀&lt;/td&gt;
+      &lt;td&gt;M3一字螺丝刀&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image23.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;尺子&lt;/td&gt;
+      &lt;td&gt;12cm&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image24.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;传感器固定安装件&lt;/td&gt;
+      &lt;td&gt;通用传感器，蜂鸣器，热释电红外传感器，舵机，超声波，马达，8×8LED矩阵，1602液晶显示屏&lt;/td&gt;
+      &lt;td&gt;蜂鸣器、舵机、马达固定安装件各2个，其他传感器固定安装件各1个&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image25.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图9 Laserblock@红棉的组件一览及编号&lt;/p&gt;
+
+&lt;p&gt;Laserblock项目的开源、普惠，让更多的普通民众，包括教师、学生及其他兴趣爱好者成为学习者、使用者，体验到开源机器人搭建的乐趣。至于如何搭建的具体案例，我们下期再见。&lt;/p&gt;
+
+&lt;p&gt;附&lt;/p&gt;
+
+&lt;p&gt;开源图纸下载二维码 网上商城采购二维码&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image26.png&quot; alt=&quot;&quot; /&gt; &lt;img src=&quot;/laserblock/assets/img/2020-04-15-Laserblock，为何能让机器人教育走向开源、普惠/media/image27.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Laserblock开源机器人系列</summary></entry></feed>
